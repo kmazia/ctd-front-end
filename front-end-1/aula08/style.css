@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+.titulo-principal {
+
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: lightseagreen;
+    
+}
+
+
+div { 
+
+    height: 200px;
+    background-image: url('WhatsApp\ Image\ 2021-08-23\ at\ 13.26.41\ \(2\).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    
+}
