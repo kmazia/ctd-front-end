@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .box {
+
+            background-color: aquamarine;
+            width: 300px;
+            height: 300px;
+            padding: 50px 50px 50px 50px;
+            /* espaçamento interno
+                pode-se colocar o espaçamento de cada lado, seguindo sentido horário
+                ou quando houver apenas dois valores, trata-se de vertical e horizontal, nesta ordem
+            */
+            margin: 12px;
+            /* espaçamento esterno*/
+            border: 2px solid blueviolet;
+            /* pode-se colocar todas as configurações de borda na mesma class*/
+                        
+        }
+
+        p {
+
+            background-color: red;
+            margin: 2;
+
+        }
+
+        .box a{
+
+            margin-top: 12px;
+            display: block;
+            /* display block serve para transformar linha em bloco*/
+        }
+
+        .box-second{
+
+            box-sizing: border-box;
+            /* border box vai calcular todos os elementos do box
+            para não ultrapassar o tamanho total da box */
+            
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class='box';>
+        
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta iste quis magnam.</p>
+    
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste consequuntur deleniti repellendus repellat quos unde saepe odio fugiat magni? Enim autem blanditiis praesentium obcaecati quis ipsam culpa nostrum esse necessitatibus!</p>
+    
+    </div>
+
+    <div class='box box-second';>
+        
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta iste quis magnam.</p>
+    
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste consequuntur deleniti repellendus repellat quos unde saepe odio fugiat magni? Enim autem blanditiis praesentium obcaecati quis ipsam culpa nostrum esse necessitatibus!</p>
+    
+    </div>
+
+</body>
+</html>

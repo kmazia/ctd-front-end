@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none !important;
+}
+
+body {
+    overflow-x: none !important;
+    overflow-y: none !important;
+}
+
+h1{
+    color: aquamarine;
+    padding: 20px;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.box{
+    padding: auto;
+    margin: auto;    
+    background-color: rgba(7, 7, 7, 0.411);
+    padding: 24px 12px;
+    align-items: center;
+    border: solid black 2px;
+    border-radius: 16px;
+}
+
+.text-section {
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.background-image {
+    background-image:url(https://super.abril.com.br/wp-content/uploads/2019/08/site_kitbruxa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    color: white;
+    padding: 32px 16px;
+    display: flex;
+  align-items: center;
+}
+
+.default-btn {
+    color: snow;
+    font-weight: bold;
+    background-color: violet;
+    border-radius: 20px;   
+    border: solid snow 5px;
+    padding: 12px;
+}
+
+.default-btn:hover {
+    color: violet;
+    font-weight: bold;
+    background-color: snow;
+    border-radius: 20px;
+    border: solid violet 5px;
+    padding: 12px;
+}
