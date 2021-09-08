@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(https://mediaim.expedia.com/destination/2/37fe9c8d7641380b6df70f3321a1eefd.jpg?impolicy=fcrop&w=1040&h=580&q=mediumHighs);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    width: 100%;
+    padding: 16px 30px;
+    position: fixed;
+    text-align: center;
+    background-color: rgba(2, 2, 90, 0.425);
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: 'Allison', cursive;
+    display: block;
+    position: fixed;
+}
+
+header h1 {
+    font-family: 'Anton', sans-serif;
+}
+
+
+header a:hover {
+    color: yellow;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+header a {
+
+    margin: 20px;
+
+}
+
+p {
+
+    color:aliceblue;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;    
+    font-size: 20px;
+}
+
+strong {
+    text-decoration: underline;
+}
+
+.box-centent {
+    padding: auto;
+    margin: auto;    
+    background-color: rgba(57, 95, 223, 0.766);
+    padding: 24px 12px;
+    align-items: center;
+    border: solid rgb(10, 2, 75) 2px;
+    border-radius: 16px;
+}
+
+.video-box-content {
+    width: 100%;
+    min-height: 720px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+    
+}
+
+section {
+    padding-top: 250px;
+    min-height: 100vh;
+    padding-left: 42px;
+    padding-right: 42px;
+}
+
+.curiosities-content {
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    
+
+}
+h2 {
+    color: yellow;
+    text-decoration: underline;
+    padding-bottom: 20px;
+
+}
+
+.item-de-lista {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+ul {
+    list-style-type: none;
+  }

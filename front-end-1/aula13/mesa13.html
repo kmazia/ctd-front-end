@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylemesa13.css">
+
+</head>
+<body>
+
+    <form >
+
+        <img src="https://lh3.googleusercontent.com/proxy/3pcmE9osLBoePVkdw7PrhyYHpY4iTpRq3aKgem8vBFePDwaTXr2S-8Wmg1b4icd_oelEtavruSwLEL8wvSF7a0PbSkPifL9BBegvhkc9oScJPwrQ82mye0-c31ZyF91nglOUwy5PJ1AUuUA-VJj4PWyMNnzxeO0" alt="">
+
+        <h1>Cadastro do Cliente</h1>
+
+        <div>
+            <label for="name">Nome</label>
+            <input type="name" maxlength="50" id="name" name="name" placeholder="Digite o seu nome">        
+        </div>
+
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seuemail@mail.com.br">        
+        </div>
+
+        <div>
+            <label for="socialNumber">CPF</label>
+            <input type="number" maxlength="11" id="socialNumber" name="socialNumber" >        
+        </div>
+
+        <div>
+            <label for="birthDate">Data de Nascimento</label>
+            <input type="date" id="birthDate" name="birthDate" >        
+        </div>
+
+        <div>
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" >        
+        </div>
+
+        <div>
+            <label for="passwordConfirm">Repita sua senha</label>
+            <input type="passwordConfirm" id="passwordConfirm" name="passwordConfirm">        
+        </div>
+
+
+    <div>
+        <label for="city">Cidade</label>
+        <select name="city" id="city" >
+            <option value="São Paulo">São Paulo</option>
+            <option value="Rio de Janeiro">Rio de Janeiro</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="comments">Comentários/Observações</label>
+        <textarea name="comments" id="comments" cols="30" rows="30"></textarea>
+    </div>
+    
+    <button type="submit">Cadastrar</button> 
+    <button type="reset">Limpar</button> 
+
+    </form>
+    
+</body>
+
+</html>
