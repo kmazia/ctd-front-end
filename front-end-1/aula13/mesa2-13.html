@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylemesa2-13.css">
+</head>
+<body>
+
+    <form >
+
+        <img src="http://assets.stickpng.com/images/6015be782036b600041a689c.png" alt="">
+
+        <h1>Cadastro do Cliente</h1>
+
+        <h2></h2>
+        
+        <fieldset>
+        
+
+            <legend>Dados Cliente</legend>
+
+            <div>
+                <label for="name">Nome</label>
+                <input type="name" maxlength="50" id="name" name="name" placeholder="Digite o seu nome">        
+            </div>
+    
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@mail.com.br">        
+            </div>
+    
+            <div>
+                <label for="socialNumber">CNPJ/CPF</label>
+                <input type="number" maxlength="14" id="socialNumber" name="socialNumber" >        
+            </div>
+    
+            
+            <div>
+                <input type="checkbox" checked id="confirm">
+                <label for="confirm">Quero receber e-mail com meu pedido.</label>
+            </div>            
+        </fieldset>
+
+        <fieldset>
+            <legend>Seu Pedido</legend>
+            <div>
+
+                <label for="product">Item 1</label>
+                <input required type="search" list="products" name="product" id="product">
+                <datalist id="products">
+                    <option value="Baton - Ao leite">
+                    <option value="Baton - Cookies">
+                    <option value="Baton - Branco">
+                    <option value="Baton - Choco Choc">
+                    <option value="Baton - Smoothies">    
+                </datalist>
+
+                <label for="quantity">Quantidade</label>
+                <input required type="search" list="quantitys" name="quantity" id="quantity">
+                <datalist id="quantitys">
+                    <option value="1 Caixa">
+                    <option value="2 Caixas">
+                    <option value="3 Caixas">
+                    <option value="4 Caixas">
+                    <option value="5 Caixas">    
+                </datalist>
+            </div>
+
+            <div>
+                <label for="product">Item 2</label>
+                <input required type="search" list="products" name="product" id="product">
+                <datalist id="products">
+                    <option value="Baton - Ao leite">
+                    <option value="Baton - Cookies">
+                    <option value="Baton - Branco">
+                    <option value="Baton - Choco Choc">
+                    <option value="Baton - Smoothies">    
+                </datalist>
+
+                <label for="quantity">Quantidade</label>
+                <input required type="search" list="quantitys" name="quantity" id="quantity">
+                <datalist id="quantitys">
+                    <option value="1 Caixa">
+                    <option value="2 Caixas">
+                    <option value="3 Caixas">
+                    <option value="4 Caixas">
+                    <option value="5 Caixas">    
+                </datalist>
+            </div>
+
+            <div>
+                <label for="product">Item 3</label>
+                <input required type="search" list="products" name="product" id="product">
+                <datalist id="products">
+                    <option value="Baton - Ao leite">
+                    <option value="Baton - Cookies">
+                    <option value="Baton - Branco">
+                    <option value="Baton - Choco Choc">
+                    <option value="Baton - Smoothies">    
+                </datalist>
+
+                <label for="quantity">Quantidade</label>
+                <input required type="search" list="quantitys" name="quantity" id="quantity">
+                <datalist id="quantitys">
+                    <option value="1 Caixa">
+                    <option value="2 Caixas">
+                    <option value="3 Caixas">
+                    <option value="4 Caixas">
+                    <option value="5 Caixas">    
+                </datalist>
+            </div>
+
+            <div>
+                <label for="product">Item 4</label>
+                <input required type="search" list="products" name="product" id="product">
+                <datalist id="products">
+                    <option value="Baton - Ao leite">
+                    <option value="Baton - Cookies">
+                    <option value="Baton - Branco">
+                    <option value="Baton - Choco Choc">
+                    <option value="Baton - Smoothies">    
+                </datalist>
+
+                <label for="quantity">Quantidade</label>
+                <input required type="search" list="quantitys" name="quantity" id="quantity">
+                <datalist id="quantitys">
+                    <option value="1 Caixa">
+                    <option value="2 Caixas">
+                    <option value="3 Caixas">
+                    <option value="4 Caixas">
+                    <option value="5 Caixas">    
+                </datalist>
+            </div>
+
+            <div>
+                <label for="product">Item 5</label>
+                <input required type="search" list="products" name="product" id="product">
+                <datalist id="products">
+                    <option value="Baton - Ao leite">
+                    <option value="Baton - Cookies">
+                    <option value="Baton - Branco">
+                    <option value="Baton - Choco Choc">
+                    <option value="Baton - Smoothies">    
+                </datalist>    
+
+                <label for="quantity">Quantidade</label>
+                <input required type="search" list="quantitys" name="quantity" id="quantity">
+                <datalist id="quantitys">
+                    <option value="1 Caixa">
+                    <option value="2 Caixas">
+                    <option value="3 Caixas">
+                    <option value="4 Caixas">
+                    <option value="5 Caixas">    
+                </datalist>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Forma de Pagamento</legend>
+
+            <div>
+                <input type="radio" name="option" id="option">
+                <label for="option">Débito</label>
+                <input type="radio" name="option" id="option">
+                <label for="option">Boleto</label>
+                <input type="radio" name="option" id="option">
+                <label for="option">Cartão de crédito</label>
+                <input type="radio" name="option" id="option">
+                <label for="option">PIX</label>
+            </div>
+            
+        </fieldset>
+     
+        
+        <fieldset>
+         
+    
+                <legend>Dados de entrega</legend>
+
+                    <div>
+                        <label for="place">Logradouro</label>
+                        <input type="place" maxlength="100" id="place" name="place">   
+                    
+                        <label for="number">N°</label>
+                        <input type="number" maxlength="5" id="number" name="number">
+                    </div>              
+                   
+
+               <div>
+                <label for="state">Estados</label>
+                    <select name="state" id="state" >
+                <optgroup label="Sul">
+                    <option value="Santa Catarina">Santa Catarina</option>
+                    <option value="Paraná">Paraná</option>
+                    <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                </optgroup>
+    
+                <optgroup label="Oeste">
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+    
+                </optgroup> 
+                
+            </select>    
+
+                <label for="city">Cidade</label>
+                <input required type="search" list="citys" name="city" id="city">
+                <datalist id="citys">
+                    <option value="São Paulo">
+                    <option value="São Caetano">
+                    <option value="Santo André">
+                    <option value="São Bernardo">
+
+                </datalist>
+
+
+               </div>                 
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Observações</legend>
+
+        <div>
+            <label for="comments">Comentários/Observações</label>
+            <textarea name="comments" id="comments" cols="10" rows="10"></textarea>
+        </div>
+    </fieldset>       
+    
+    <button type="submit">Enviar</button> 
+    <button type="reset">Limpar</button> 
+
+    </form>
+    
+</body>
+</html>

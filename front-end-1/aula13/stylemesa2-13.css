@@ -1,0 +1,37 @@
+body {
+    background-image: url(https://gkpb.com.br/wp-content/uploads/2017/12/novo-baton-tablete-chocolate-branco.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position: bottom;
+    background-size: 15cm;
+
+}
+
+header {
+
+    padding: 30px;
+    position: fixed;
+
+}
+
+img {
+    width: 15%;
+
+}
+
+h1 {
+    text-align: center;
+    color: darkslategray;
+}
+
+div {
+    padding: 5px;
+
+}
+
+input {
+    border-radius: 10px;
+    border-color: darkslategray;
+
+}
+
