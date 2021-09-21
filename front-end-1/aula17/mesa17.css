@@ -1,0 +1,64 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+
+    background-color: black;
+
+}
+
+main {
+
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+h1 {
+
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    color: antiquewhite; 
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+.card {
+
+    width: 350px;  
+    height: 300px;
+
+}
+
+img {
+
+    width: 300px;  
+    height: 250px;
+
+}
+
+h2 {
+
+    color: antiquewhite;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+p {
+
+    color: antiquewhite;
+    font-family: 'Indie Flower', cursive;
+
+}
+
